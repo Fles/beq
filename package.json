@@ -1,0 +1,38 @@
+{
+  "name": "rename-imports",
+  "version": "0.0.1",
+  "description": "Rename your imports.",
+  "main": "./rnmi.js",
+  "bin": {
+    "rnmi": "./rnmi.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "rnmi": "node rnmi"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fles/rename-imports.git"
+  },
+  "keywords": [
+    "comb",
+    "react",
+    "repository",
+    "app"
+  ],
+  "author": "Fles <the.final.frontend@gmail.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/Fles/rename-imports/issues"
+  },
+  "homepage": "https://github.com/Fles/rename-imports#readme",
+  "dependencies": {
+    "acorn": "7.1.0"
+  },
+  "devDependencies": {
+    "acorn-jsx": "^5.1.0",
+    "lodash": "4.17.15",
+    "prettier": "1.19.1",
+    "replace-in-files": "^2.0.3"
+  }
+}
