@@ -1,3 +1,3 @@
 # rename-imports
 
-Change imports from monolith to monorepo
+Renabe file imports from monolith to monorepo
