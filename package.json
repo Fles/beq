@@ -1,7 +1,7 @@
 {
-  "name": "rename-imports",
+  "name": "modim",
   "version": "0.0.1",
-  "description": "Rename your imports.",
+  "description": "Modify imports in project files",
   "main": "./rnmi.js",
   "bin": {
     "rnmi": "./rnmi.js"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fles/rename-imports.git"
+    "url": "git+https://github.com/Fles/modim.git"
   },
   "keywords": [
     "comb",
@@ -23,9 +23,9 @@
   "author": "Fles <the.final.frontend@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/Fles/rename-imports/issues"
+    "url": "https://github.com/Fles/modim/issues"
   },
-  "homepage": "https://github.com/Fles/rename-imports#readme",
+  "homepage": "https://github.com/Fles/modim#readme",
   "dependencies": {
     "acorn": "7.1.0"
   },

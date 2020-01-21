@@ -1,3 +1,6 @@
-# rename-imports
+# Modim
 
-Renabe file imports from monolith to monorepo
+Modify imports in project
+
+1. list
+2. rename
