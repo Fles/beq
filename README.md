@@ -1,3 +1,5 @@
-# rename-imports
+# handle-imports
 
-Renabe file imports from monolith to monorepo
+Handle file imports from monolith to monorepo
+
+1. rename
