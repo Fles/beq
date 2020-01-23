@@ -5,10 +5,10 @@ const list = require("../lib/list/");
 
 /*******************************************/
 // list: list all imports
-// $ modim list <required single file or glob>
-// $ modim ls <required single file or glob>
+// $ modim list <path>
+// $ modim ls <path>
 vCLI
-  .command("list <single file or glob>")
+  .command("list <path>")
   .alias("ls")
   .action(list)
   .description("List all imports in path.");

@@ -25,10 +25,10 @@
     "url": "https://github.com/Fles/modim/issues"
   },
   "homepage": "https://github.com/Fles/modim#readme",
-  "dependencies": {
-    "acorn": "7.1.0"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "glob": "^7.1.6",
+    "minimist": "^1.2.0",
     "acorn-jsx": "^5.1.0",
     "commander": "^4.1.0",
     "lodash": "4.17.15",
