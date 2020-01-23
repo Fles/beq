@@ -11,7 +11,7 @@ vCLI
   .command("list <single file or glob>")
   .alias("ls")
   .action(list)
-  .description("List all imports.");
+  .description("List all imports in path.");
 /*******************************************/
 
 vCLI.parse(process.argv);
