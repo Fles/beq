@@ -1,6 +1,6 @@
 {
   "name": "beq",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "Manipulate project files",
   "main": "./bin/index.js",
   "preferGlobal": true,
@@ -31,12 +31,7 @@
     "commander": "^4.1.0"
   },
   "devDependencies": {
-    "acorn-jsx": "^5.1.0",
-    "glob": "^7.1.6",
     "jest": "^25.1.0",
-    "lodash": "4.17.15",
-    "minimist": "^1.2.0",
-    "prettier": "1.19.1",
-    "replace-in-files": "^2.0.3"
+    "prettier": "1.19.1"
   }
 }
