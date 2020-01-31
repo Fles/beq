@@ -8,8 +8,7 @@
     "beq": "./bin/index.js"
   },
   "scripts": {
-    "test": "jest",
-    "publish": "semantic-release"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
