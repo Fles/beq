@@ -1,30 +1,31 @@
 {
-  "name": "modim",
-  "version": "0.0.1",
-  "description": "Modify imports in project files",
+  "name": "beq",
+  "version": "0.0.2",
+  "description": "Manipulate project files",
   "main": "./bin/index.js",
   "preferGlobal": true,
   "bin": {
-    "modim": "./bin/index.js"
+    "beq": "./bin/index.js"
   },
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fles/modim.git"
+    "url": "git+https://github.com/Fles/beq.git"
   },
   "keywords": [
     "CLI",
     "import",
-    "modify"
+    "modify",
+    "beq"
   ],
   "author": "Fles <the.final.frontend@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/Fles/modim/issues"
+    "url": "https://github.com/Fles/beq/issues"
   },
-  "homepage": "https://github.com/Fles/modim#readme",
+  "homepage": "https://github.com/Fles/beq#readme",
   "dependencies": {
     "find-in-files": "^0.5.0"
   },
