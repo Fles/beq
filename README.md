@@ -1,4 +1,12 @@
 # Modim
 
-Modify imports in project
-nikola
+## list (ls)
+
+Find files in path recursively
+
+Syntax
+ff [Directory][options]
+
+Key
+-e Specifies file extension type
+-w

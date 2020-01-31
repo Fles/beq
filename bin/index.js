@@ -1,17 +1,13 @@
 #!/usr/bin/env node
 
-const vCLI = require("commander");
-const list = require("../lib/list/");
+const vCLI = require('commander')
+const ff = require('../lib/ff/')
 
-/*******************************************/
-// list: list all imports
-// $ modim list <path>
-// $ modim ls <path>
-vCLI
-  .command("list <path>")
-  .alias("ls")
-  .action(list)
-  .description("List all imports in path.");
-/*******************************************/
+vCLI.command('ff')
+    .action(ff)
+    .option('-e <type>', 'Specify type of file extension', 'tsx')
+    .option('-w <keyword>', 'Specify keyword in file', 'React')
+    .option('-c', 'Specifies if filename could be lower case', 'true')
+    .description('Find files in path.')
 
-vCLI.parse(process.argv);
+vCLI.parse(process.argv)

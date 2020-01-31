@@ -25,7 +25,9 @@
     "url": "https://github.com/Fles/modim/issues"
   },
   "homepage": "https://github.com/Fles/modim#readme",
-  "dependencies": {},
+  "dependencies": {
+    "find-in-files": "^0.5.0"
+  },
   "devDependencies": {
     "acorn-jsx": "^5.1.0",
     "commander": "^4.1.0",
