@@ -37,6 +37,7 @@
     "lodash": "4.17.15",
     "minimist": "^1.2.0",
     "prettier": "1.19.1",
-    "replace-in-files": "^2.0.3"
+    "replace-in-files": "^2.0.3",
+    "semantic-release": "^17.0.1"
   }
 }
