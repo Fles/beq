@@ -1,6 +1,6 @@
 {
   "name": "beq",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Manipulate project files",
   "main": "./bin/index.js",
   "preferGlobal": true,
