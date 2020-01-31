@@ -4,7 +4,7 @@ File manipulation utilities for frontend
 
 ## ff
 
-Find paths to components recursively, ignoring [this](lib/README.md) cases
+Find paths to components recursively, ignoring [this](lib/ff/README.md) cases
 
 -e _\<type>_ Specify extension of files to search (default: tsx)
 
