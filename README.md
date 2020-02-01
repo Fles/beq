@@ -2,27 +2,27 @@
 
 File manipulation utilities for frontend
 
-## ff
+## `ff`
 
-Find paths to component files recursively
-[Ignore](lib/ff/README.md)
+Find files (file paths to components) recursively.
+_[See ignore cases.](lib/ff/README.md)_
 
--e _\<type>_ Specify extension of files to search (default: tsx)
+`-e` `<type>` Specify extension of files to search (default: tsx)
 
--w _\<keyword>_ Specify keyword of approval in file (default: React)
-
----
+`-w` `<keyword>` Specify keyword of approval in file (default: React)
 
 ## Examples
 
-List all capitalized file paths that include `React` keyword in content
+Find `.tsx` with capitalized filename including `React` keyword in its content:
 
 ```
 - npx beq ff
 ```
 
-List all capitalized file paths that include `Vue` keyword in content
+Find `.js` with capitalized filename including `Vue` keyword in its content:
 
 ```
 - npx beq ff -e js -w Vue
 ```
+
+---
