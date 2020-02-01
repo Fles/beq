@@ -1,6 +1,6 @@
 {
   "name": "beq",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Manipulate project files",
   "main": "./bin/index.js",
   "preferGlobal": true,
@@ -18,7 +18,11 @@
     "CLI",
     "import",
     "modify",
-    "beq"
+    "beq",
+    "React",
+    "tsx",
+    "ts",
+    "js"
   ],
   "author": "Fles <the.final.frontend@gmail.com>",
   "license": "SEE LICENSE IN LICENSE",
