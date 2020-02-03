@@ -13,16 +13,16 @@ _[See ignore cases.](lib/ff/README.md)_
 
 ## Examples
 
-Find `.tsx` with capitalized filename including `React` keyword in its content:
+Find capitalized `.tsx` files with `React` keyword in its content:
 
 ```
-- npx beq ff
+npx beq ff
 ```
 
-Find `.js` with capitalized filename including `Vue` keyword in its content:
+Find capitalized `.js` files with `Vue` keyword in its content:
 
 ```
-- npx beq ff -e js -w Vue
+npx beq ff -e js -w Vue
 ```
 
 ---
