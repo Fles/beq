@@ -1,8 +1,10 @@
 # beq
 
-File manipulation utilities for frontend
+_File manipulation utilities for frontend!_
 
-## `ff`
+## Commands:
+
+### `ff`
 
 Find files (file paths to components) recursively.
 
@@ -10,7 +12,7 @@ Find files (file paths to components) recursively.
 
 `-w` `<keyword>` Specify keyword of approval in file (default: React)
 
-## Examples
+_Examples_
 
 Find capitalized `.tsx` files with `React` keyword in its content:
 
@@ -24,13 +26,15 @@ Find capitalized `.js` files with `Vue` keyword in its content:
 npx beq ff -e js -w Vue
 ```
 
-## `li`
+---
+
+### `li`
 
 List imports recursively.
 
 `-e` `<type>` Specify extension of files to search (default: tsx)
 
-## Examples
+_Examples_
 
 List all imports from `.tsx` files:
 
