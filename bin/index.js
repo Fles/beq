@@ -16,6 +16,7 @@ vCLI
   .command('li')
   .action(li)
   .option('-e <type>', 'Specify type of file extension', 'tsx')
+  .option('-f', 'Include file paths in listing.')
   .description('List imports.')
 
 vCLI.parse(process.argv)
