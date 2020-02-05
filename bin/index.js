@@ -16,7 +16,6 @@ vCLI
   .command('li')
   .action(li)
   .option('-e <type>', 'Specify type of file extension', 'tsx')
-  .option('-w <keyword>', 'Specify keyword in file', 'React')
   .description('List imports.')
 
 vCLI.parse(process.argv)
