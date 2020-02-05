@@ -34,6 +34,8 @@ List imports recursively.
 
 `-e` `<type>` Specify extension of files to search (default: tsx)
 
+`-f` Includes path to the file
+
 _Examples_
 
 List all imports from `.tsx` files:
@@ -48,6 +50,11 @@ List all imports from `.js` files:
 npx beq li -e js
 ```
 
+List all imports from `.tsx` files including path to the file:
+
+```
+npx beq li -f
+```
 ---
 
 _[List of ignore cases.](lib/ignores/README.md)_
